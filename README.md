@@ -5,9 +5,9 @@
 </p>
 
 
-    <h3>Setup and Run:</h3>
-    <p></p>To set up and run the Flask application, follow these steps:</p>
-    <ol>
+<h3>Setup and Run:</h3>
+<p></p>To set up and run the Flask application, follow these steps:</p>
+<ol>
         <li>Clone the repository<br>
             <ul><li>git clone https://github.com/your_username/your_flask_app.git</li>
             <li>cd your_flask_app</li>
@@ -33,9 +33,9 @@
         <li> Run the Flask application 
             "python app.py"</li>
         <li> Access the application in your web browser at http://localhost:5000</li>
-    </ol>
-    <p>The application uses a simple table named users to store user information. The schema is as follows:</p>
-    <table>
+</ol>
+<p>The application uses a simple table named users to store user information. The schema is as follows:</p>
+<table>
         <tr>
             <th>Field</th>
             <th>Type</th>
@@ -61,19 +61,19 @@
             <td>VARCHAR(100)</td>
             <td></td>
         </tr>
-    </table>
+</table>
 
 
-    <h3>Git Workflow and Contribution</h3>
+<h3>Git Workflow and Contribution</h3>
 
-    <p>main: The main branch that stores the stable version of the application.<br>
+<p>main: The main branch that stores the stable version of the application.<br>
         develop: The development branch where new features are integrated before being merged into the main.<br>
         Feature Branches: For each new feature, bug fix, or improvement, create a new branch based on the develop branch
         and name it descriptively.</p>
 
-    <h4>To contribute to the project, follow these steps:</h4>
+<h4>To contribute to the project, follow these steps:</h4>
 
-    <ol>
+<ol>
         <li>Fork the repository on GitHub.</li>
         <li>Clone your forked repository locally:<br>
             <ul>
