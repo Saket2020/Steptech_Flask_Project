@@ -14,7 +14,7 @@
           pip install Flask mysql-connector-python
 </li>
 <li>
-           <ol><li>Configure the database<br>
+           <ul><li>Configure the database<br>
           db_config = {<br>
     'host': 'your_database_host',<br>
     'user': 'your_database_user',<br>
@@ -22,7 +22,7 @@
     'database': 'your_database_name'<br>
   }</li>
   <li>Create the required table(s) in your MySQL database. You can find the database schema details in the next section.</li>
-           </ol></li>
+           </ul></li>
 
   <li> Run the Flask application<br>
              python app.py</li>
@@ -58,25 +58,33 @@
 </table>
 
 
-Git Workflow and Contribution
+<h3>Git Workflow and Contribution</h3>
 
-main: The main branch that stores the stable version of the application.
-develop: The development branch where new features are integrated before being merged into the main.
-Feature Branches: For each new feature, bug fix, or improvement, create a new branch based on the develop branch and name it descriptively.
+<p>main: The main branch that stores the stable version of the application.<br>
+develop: The development branch where new features are integrated before being merged into the main.<br>
+Feature Branches: For each new feature, bug fix, or improvement, create a new branch based on the develop branch and name it descriptively.</p>
 
-To contribute to the project, follow these steps:
+<h4>To contribute to the project, follow these steps:</h4>
 
-1-> Fork the repository on GitHub.
-2-> Clone your forked repository locally:
-           git clone https://github.com/your_username/your_flask_app.git
-           cd your_flask_app
-3-> Create a new branch for your changes:
-           git checkout -b new_feature
-4->  Make your changes and commit them:
-            git add .
-            git commit -m "Add new feature"
-5->Push your changes to your forked repository:
-          git push origin new_feature
+<ol>
+           <li>Fork the repository on GitHub.</li>
+<li>Clone your forked repository locally:<br>
+           <ul>
+           <li>git clone https://github.com/your_username/your_flask_app.git</li>
+           <li></li>cd your_flask_app</li>
+                      </ul></li>
+<li> Create a new branch for your changes:<br>
+           <ul><li>git checkout -b new_feature</li></ul></li>
+<li>  Make your changes and commit them:<br>
+            <ul><li>git add .</li>
+            <li>git commit -m "Add new feature"</li>
+           </ul></li>
+<li>Push your changes to your forked repository:<br>
+           <ul>
+                      <li>
+          git push origin new_feature</li>
+           </ul>
+</li>
 6->Create a pull request on GitHub, targeting the develop branch of the original repository.
 
 7->Wait for the maintainers to review your pull request. If there are any requested changes, make them in your branch and push the changes. The pull request will be updated automatically.
@@ -86,8 +94,6 @@ To contribute to the project, follow these steps:
 
 
 Note: Please ensure that your changes are well-tested and follow the project's coding guidelines before submitting a pull request.
-
-
 
 Insert sample data into the "users" table:
  INSERT INTO users (id,name, email,role) VALUES
