@@ -20,8 +20,8 @@
     'user': 'your_database_user',<br>
     'password': 'your_database_password',<br>
     'database': 'your_database_name'<br>
-  }<br></li>
-  <li></li>Create the required table(s) in your MySQL database. You can find the database schema details in the next section.</li>
+  }</li>
+  <li>Create the required table(s) in your MySQL database. You can find the database schema details in the next section.</li>
            </ol></li>
 
   <li> Run the Flask application<br>
