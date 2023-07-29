@@ -6,21 +6,23 @@
 <h3>Setup and Run:</h3>
 <p></p>To set up and run the Flask application, follow these steps:</p>
 <ol>
-           </li>Clone the repository<br>
+           <li>Clone the repository<br>
            git clone https://github.com/your_username/your_flask_app.git<br>
            cd your_flask_app<br>
            </l1>
-<li>xInstall dependencies<br>
+<li>Install dependencies<br>
           pip install Flask mysql-connector-python
 </li>
-<li>Configure the database<br>
+<li>
+           <ol><li>Configure the database<br>
           db_config = {<br>
     'host': 'your_database_host',<br>
     'user': 'your_database_user',<br>
     'password': 'your_database_password',<br>
     'database': 'your_database_name'<br>
-  }<br>
-  Create the required table(s) in your MySQL database. You can find the database schema details in the next section.</li>
+  }<br></li>
+  <li></li>Create the required table(s) in your MySQL database. You can find the database schema details in the next section.</li>
+           </ol></li>
 
   <li> Run the Flask application<br>
              python app.py</li>
