@@ -1,21 +1,19 @@
 <h1>Steptech Flask Project</h1>
-
 <p>This is a Flask API that provides endpoints to manage users. It allows you to view a list of users, create new
         users, and view individual user details. The application uses MySQL as the database to store user information.
 </p>
 
 
 <h3>Setup and Run:</h3>
-<p></p>To set up and run the Flask application, follow these steps:</p>
-<ol>
+    <p></p>To set up and run the Flask application, follow these steps:</p>
+    <ol>
         <li>Clone the repository<br>
             <ul><li>git clone https://github.com/your_username/your_flask_app.git</li>
             <li>cd your_flask_app</li>
         </ul></l1>
-        <li>Install dependencies 
-   "pip install Flask mysql-connector-python"
+        <li>Install dependencies "pip install Flask mysql-connector-python"
             
-        </li>
+</li>
         <li>
             <ul>
                 <li>Configure the database<br>
@@ -30,12 +28,12 @@
             </ul>
         </li>
 
-        <li> Run the Flask application 
+<li> Run the Flask application 
             "python app.py"</li>
         <li> Access the application in your web browser at http://localhost:5000</li>
-</ol>
-<p>The application uses a simple table named users to store user information. The schema is as follows:</p>
-<table>
+    </ol>
+    <p>The application uses a simple table named users to store user information. The schema is as follows:</p>
+    <table>
         <tr>
             <th>Field</th>
             <th>Type</th>
@@ -61,7 +59,7 @@
             <td>VARCHAR(100)</td>
             <td></td>
         </tr>
-</table>
+    </table>
 
 
 <h3>Git Workflow and Contribution</h3>
@@ -100,16 +98,16 @@
         </li>
         <li>Create a pull request on GitHub, targeting the develop branch of the original repository.</li>
 
-        <li>Wait for the maintainers to review your pull request. If there are any requested changes, make them in your
+<li>Wait for the maintainers to review your pull request. If there are any requested changes, make them in your
         branch and push the changes. The pull request will be updated automatically.</li>
 
-    <li>Once your pull request is approved, it will be merged into the develop branch, and your contribution will
+<li>Once your pull request is approved, it will be merged into the develop branch, and your contribution will
         become part of the project.</li>
 
-        <h4 >Note: Please ensure that your changes are well-tested and follow the project's coding guidelines before
+<h4 >Note: Please ensure that your changes are well-tested and follow the project's coding guidelines before
         submitting a pull request.</h4>
 
-        <p></p>
+<p></p>
         Insert sample data into the "users" table:<br>
         INSERT INTO users (id,name, email,role) VALUES<br>
         (1,'John Doe', 'john.doe@example.com',hr),<br>
