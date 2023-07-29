@@ -1,8 +1,8 @@
 <h1>Steptech Flask Project</h1>
 
-    <p>This is a Flask API that provides endpoints to manage users. It allows you to view a list of users, create new
+<p>This is a Flask API that provides endpoints to manage users. It allows you to view a list of users, create new
         users, and view individual user details. The application uses MySQL as the database to store user information.
-    </p>
+</p>
 
 
     <h3>Setup and Run:</h3>
