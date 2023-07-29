@@ -1,32 +1,59 @@
-This is a Flask API that provides endpoints to manage users. It allows you to view a list of users, create new users, and view individual user details. The application uses MySQL as the database to store user information.
+<h1>Steptech Flask Project</h1>
+
+<p>This is a Flask API that provides endpoints to manage users. It allows you to view a list of users, create new users, and view individual user details. The application uses MySQL as the database to store user information.</p>
 
 
-Setup and Run:
-To set up and run the Flask application, follow these steps:
-1->Clone the repository
-           git clone https://github.com/your_username/your_flask_app.git
-           cd your_flask_app
-2->Install dependencies
+<h3>Setup and Run:</h3>
+<p></p>To set up and run the Flask application, follow these steps:</p>
+<ol>
+           </li>Clone the repository<br>
+           git clone https://github.com/your_username/your_flask_app.git<br>
+           cd your_flask_app<br>
+           </l1>
+<li>xInstall dependencies<br>
           pip install Flask mysql-connector-python
-3->Configure the database
-          db_config = {
-    'host': 'your_database_host',
-    'user': 'your_database_user',
-    'password': 'your_database_password',
-    'database': 'your_database_name'
-  }
-  Create the required table(s) in your MySQL database. You can find the database schema details in the next section.
+</li>
+<li>Configure the database<br>
+          db_config = {<br>
+    'host': 'your_database_host',<br>
+    'user': 'your_database_user',<br>
+    'password': 'your_database_password',<br>
+    'database': 'your_database_name'<br>
+  }<br>
+  Create the required table(s) in your MySQL database. You can find the database schema details in the next section.</li>
 
-  4-> Run the Flask application
-             python app.py
-5-> Access the application in your web browser at http://localhost:5000
-
-The application uses a simple table named users to store user information. The schema is as follows:
-Field	    Type	           Key	
-id	      INT	              PK	
-name	    VARCHAR(100)		
-email	    VARCHAR(100)		
-role	    VARCHAR(100)
+  <li> Run the Flask application<br>
+             python app.py</li>
+<li> Access the application in your web browser at http://localhost:5000</li>
+</ol>
+<p>The application uses a simple table named users to store user information. The schema is as follows:</p>
+<table>
+                  <tr>
+                         <th>Field</th>
+                         <th>Type</th>
+                         <th>Key</th>
+                  </tr>  
+                  <tr>
+                         <td>id</td>
+                         <td>INT</td>
+                         <td>PK</td>
+                  </tr>  
+                  <tr>
+                         <td>name</td>
+                         <td>VARCHAR(100)</td>
+                         <td></td>
+                  </tr> 
+                  <tr>
+                         <td>email</td>
+                         <td>VARCHAR(100)</td>
+                         <td></td>
+                  </tr> 
+                  <tr>
+                         <td>role</td>
+                         <td>VARCHAR(100)</td>
+                         <td></td>
+                  </tr> 
+</table>
 
 
 Git Workflow and Contribution
